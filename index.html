@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>chatApp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--
+ <div class="container">
+     <div class="avatar">
+         img source here
+         <img src="./samuel.jpg" alt="img" width="100px" height="100px"/>
+     </div>
+     <div class="content">
+         <h4>Sam</h4> <span><h6>Today at 6:45am</h6></span>
+         <p>Hello World!</p>
+         <input type="text" id="message"/>
+         <button>Send!</button>
+     </div>
+         
+ </div>
+
+    -->
+
+    <section class="container">
+        
+        <div class="content">
+            <h2>Pop up chat window</h2>
+        </div>
+        <button class="open" onclick="openForm()"> Start Chat</button>
+
+        <div class="chat-popup" id="myForm" >
+            <form action="" class="form-container">
+                <div class="grid"><div class="avatar">
+                    <img src="./samuel.jpg" alt="img" width="80px" height="70px" />
+                </div>
+                <div class="content">
+                    <h3><b>Sam</b></h3>
+                    <p>Today at 6.55pm</p>
+                </div>  
+            </div>
+                
+                <label for="message"><b>Message</b></label>
+                <textarea name="msg" placeholder="Enter your message" required></textarea>
+                <button type="submit" class="btn">Send</button>
+                <button type="button" class="btn cancel" onclick="closeForm()"> Close</button>
+            
+            </form>
+
+        </div>
+    </section >
+<script src="App.js"></script s>
+</body>
+</html>
