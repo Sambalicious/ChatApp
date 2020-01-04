@@ -34,8 +34,9 @@
 
         <div class="chat-popup" id="myForm" >
             <form action="" class="form-container">
-                <div class="grid"><div class="avatar">
-                    <img src="./samuel.jpg" alt="img" width="80px" height="70px" />
+                <div class="grid">
+                    <div class="avatar">
+                        <img src="./samuel.jpg" alt="img" width="80px" height="70px" />
                 </div>
                 <div class="content">
                     <h3><b>Sam</b></h3>
@@ -43,9 +44,10 @@
                 </div>  
             </div>
                 
+                <ul id="messages"></ul>
                 <label for="message"><b>Message</b></label>
-                <textarea name="msg" placeholder="Enter your message" required></textarea>
-                <button type="submit" class="btn">Send</button>
+                <textarea name="msg" id="textarea" placeholder="Enter your message" required></textarea>
+                <button type="submit" id="btn-send" class="btn">Send</button>
                 <button type="button" class="btn cancel" onclick="closeForm()"> Close</button>
             
             </form>
