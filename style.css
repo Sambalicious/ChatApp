@@ -119,3 +119,11 @@ h2{
 opacity: 1;
 }
 
+li{
+    list-style-type:none;
+    border-radius: 3px;
+    background-color:lightgreen;
+    color: black;
+    padding: 10px;
+    margin-top: 2px;
+}
